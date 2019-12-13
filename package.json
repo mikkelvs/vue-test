@@ -9,7 +9,7 @@
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "watch": "vue-cli-service test:unit --watch",
-    "stuff": "npm run serve && npm run watch"
+    "stuff": "npm run serve & npm run watch"
   },
   "dependencies": {
     "core-js": "^3.4.3",

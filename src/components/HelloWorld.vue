@@ -14,17 +14,21 @@ export default {
     return {
       options: [
         {
-          value: 1,
+          id: 1,
+          value: 'value-1',
           name: 'title-1',
-          label: 'Checkbox 1 Title'
+          label: 'Checkbox 1 Title',
+          selected: false
         },
         {
-          value: 2,
+          id: 2,
+          value: 'value-2',
           name: 'title-2',
-          label: 'Checkbox 2 Title'
+          label: 'Checkbox 2 Title',
+          selected: false
         }
       ],
-      selectedCheckboxes: []
+      selectedCheckboxes: ['value-1']
     }
   }
 }

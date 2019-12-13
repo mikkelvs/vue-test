@@ -4,8 +4,8 @@
         {{ label }}
         <input
             type="checkbox"
-            v-on:change="$emit('input', $event.target.checked)"><br />
-            
+            :value="value"
+            v-on:change="$emit('input', $event.target.value)"><br />
     </label>
 
 </template>
@@ -15,6 +15,7 @@
 export default {
     name: 'Checkbox',
     props: {
+        value: String,
         label: String
     }
 }
